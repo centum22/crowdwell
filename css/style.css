@@ -261,13 +261,16 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .gtco-video {
-  height: 450px;
+  height: 380px;
   overflow: hidden;
   margin-bottom: 30px;
   -webkit-border-radius: 7px;
   -moz-border-radius: 7px;
   -ms-border-radius: 7px;
   border-radius: 7px;
+}
+.gtco-video video{
+  height:400px;
 }
 .gtco-video.gtco-video-sm {
   height: 250px;
@@ -372,9 +375,15 @@ h1, h2, h3, h4, h5, h6, figure {
   height: 600px;
 }
 @media screen and (max-width: 768px) {
-  .gtco-cover.gtco-cover-sm {
-    height: 400px;
+  .gtco-cover-sm {
+    height: 380px;
   }
+  .gtco-video-sm{
+    height:380px;
+  }
+  .gtco-video.gtco-video-sm {
+    height: 380px;
+}
 }
 .gtco-cover.gtco-cover-sm .display-t,
 .gtco-cover.gtco-cover-sm .display-tc {
